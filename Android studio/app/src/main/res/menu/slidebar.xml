@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/cardHome"
+        android:icon="@drawable/ic_home"
+        android:title="Home">
+
+    </item>
+    <item
+        android:id="@+id/cardCapture"
+        android:icon="@drawable/ic_camera"
+        android:title="cardCapture">
+
+    </item>
+    <item
+        android:id="@+id/cardBook"
+        android:icon="@drawable/ic_book"
+        android:title="cardBook">
+
+    </item>
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Tutorial">
+          <menu>
+              <item
+                  android:id="@+id/cardBook1"
+                  android:icon="@drawable/ic_book"
+                  android:title="Numbers">
+
+              </item>
+              <item
+                  android:id="@+id/cardBook2"
+                  android:icon="@drawable/ic_book"
+                  android:title="Letter">
+
+              </item>
+              <item
+                  android:id="@+id/cardBook3"
+                  android:icon="@drawable/ic_book"
+                  android:title="Words">
+
+              </item>
+              <item
+                  android:id="@+id/cardBook4"
+                  android:icon="@drawable/ic_book"
+                  android:title="Vedio">
+
+              </item>
+          </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Authenticate">
+            <menu>
+                <item
+                    android:id="@+id/Loyout"
+                    android:icon="@drawable/ic_book"
+                    android:title="layout">
+
+                </item>
+
+            </menu>
+        </item>
+    </group>
+</menu>

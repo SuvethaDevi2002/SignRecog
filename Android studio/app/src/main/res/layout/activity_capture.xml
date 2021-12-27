@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".CaptureActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="1500dp"
+        android:layout_height="500dp"
+        android:src="@drawable/cam" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+
+        android:layout_marginTop="550dp"
+        android:backgroundTint="#00FFBF"
+        android:src="@drawable/ic_upload"
+        app:backgroundTint="#00FFBF"
+        app:borderWidth="2dp"
+        app:fabSize="mini"
+        app:rippleColor="#FFF">
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="550dp"
+        android:backgroundTint="#00FFBF"
+        android:src="@drawable/ic_video"
+        app:backgroundTint="#00FFBF"
+        app:borderWidth="2dp"
+        app:fabSize="mini"
+        app:rippleColor="#FFF">
+
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+</RelativeLayout>
